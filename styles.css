@@ -1,206 +1,245 @@
-body{
+body {
     background-image: url("bgground.png");
-    background-position: center center;    
+    background-position: center center;
     height: 500px;
     overflow: hidden;
 }
-.header .bio{
-    position:fixed;
-    top:200px;
-    left:500px;
+
+.header .bio {
+    position: fixed;
+    top: 200px;
+    left: 500px;
     font-size: 50px;
-    font-family:roboto;
-    color:white;
+    font-family: roboto;
+    color: white;
     animation-name: biotext;
     animation-duration: 4s;
     animation-iteration-count: infinite;
 }
-@keyframes biotext{
-    from {color:white;}
-    to {color:rgb(234, 180, 109);}
+
+@keyframes biotext {
+    from {
+        color: white;
+    }
+
+    to {
+        color: rgb(234, 180, 109);
+    }
 }
-.image img{
+
+.image img {
     position: relative;
-    width:70px;
-    left:500px;
+    width: 70px;
+    left: 500px;
 }
-.header .topnav{
+
+.header .topnav {
     position: fixed;
-    left:1000px;
-    top:40px;
+    left: 1000px;
+    top: 40px;
 }
-.header .topnav a{
-    color:rgb(39, 154, 177);
+
+.header .topnav a {
+    color: rgb(39, 154, 177);
     text-decoration: none;
     padding-left: 20px;
     padding-right: 20px;
     font-weight: bold;
-    border:2px solid white;
-    font-size:24px;
+    border: 2px solid white;
+    font-size: 24px;
 }
-.education .topnav{
+
+.education .topnav {
     position: fixed;
-    left:1000px;
-    top:40px;
+    left: 1000px;
+    top: 40px;
 }
-.education .topnav a{
-    color:rgb(39, 154, 177);
+
+.education .topnav a {
+    color: rgb(39, 154, 177);
     text-decoration: none;
     padding-left: 20px;
     padding-right: 20px;
     font-weight: bold;
-    border:2px solid white;
-    font-size:24px;
+    border: 2px solid white;
+    font-size: 24px;
 }
-.footer .hlogo{
-    position:fixed;
-left:570px;
-top:440px;
-width:60px;
+
+.footer .hlogo {
+    position: fixed;
+    left: 570px;
+    top: 440px;
+    width: 60px;
 }
-.footer .glogo{
-    position:fixed;
-left:670px;
-top:450px;
-width:80px;
+
+.footer .glogo {
+    position: fixed;
+    left: 670px;
+    top: 450px;
+    width: 80px;
 }
-.footer .llogo{
-    position:fixed;
-left:800px;
-top:450px;
-width:50px;
+
+.footer .llogo {
+    position: fixed;
+    left: 800px;
+    top: 450px;
+    width: 50px;
 }
-.footer .leetlogo{
-    position:fixed;
-left:880px;
-top:440px;
-width:50px;
+
+.footer .leetlogo {
+    position: fixed;
+    left: 880px;
+    top: 440px;
+    width: 50px;
 }
-.header .fstag{
-    position:fixed;
-    left:2px;
-    top:10px;
-    width:150px;
+
+.header .fstag {
+    position: fixed;
+    left: 2px;
+    top: 10px;
+    width: 150px;
 
 }
-.header .topnav a:hover{
-    color:white;
+
+.header .topnav a:hover {
+    color: white;
 }
-h1{
-    position:fixed;
-    top:80px;
-    left:900px;
+
+h1 {
+    position: fixed;
+    top: 80px;
+    left: 900px;
     font-size: 40px;
     font-style: cursive;
-    color:rgb(102, 37, 102);
+    color: rgb(102, 37, 102);
 }
-.intro p{
+
+.intro p {
     font-size: 32px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color:rgb(102, 37, 102);
-    position:fixed;
-    top:180px;
-    left:780px;
-}
-.pic{
-    position:fixed;
-    top:100px;
-    display:flex;
-}
-.edu{
+    color: rgb(102, 37, 102);
     position: fixed;
-    top:300px;
-    left:100px; 
-    color:white;
-    display:flex;
-    list-style:none;
-    font-size:35px;
+    top: 180px;
+    left: 780px;
+}
+
+.pic {
+    position: fixed;
+    top: 100px;
+    display: flex;
+}
+
+.edu {
+    position: fixed;
+    top: 300px;
+    left: 100px;
+    color: white;
+    display: flex;
+    list-style: none;
+    font-size: 35px;
     font-style: monaco;
     margin-bottom: 100px;
 }
 
-header{
+header {
     margin: 100px;
     text-align: center;
-    font-size:80px;
+    font-size: 80px;
     font-family: fantasy;
-    color:aliceblue;
+    color: aliceblue;
     animation-name: headertext;
     animation-duration: 2s;
     animation-iteration-count: infinite;
 }
-    
-    
-@keyframes headertext{
-    from {color: aliceblue;}
-    to {color:rgb(200, 78, 71);}
+
+
+@keyframes headertext {
+    from {
+        color: aliceblue;
+    }
+
+    to {
+        color: rgb(200, 78, 71);
+    }
 }
-.gif{
-    position:fixed;
-    top:300px;
-    left:800px;
+
+.gif {
+    position: fixed;
+    top: 300px;
+    left: 800px;
     display: flex;
 }
-.lang .c{
-    position:fixed;
-    top:300px;
-    left:500px;
-    height:80px;
-    width:80px;
-}
-.lang .html{
-    position:fixed;
-    top:300px;
-    left:700px;
-    height:80px;
-    width:80px;
-}
-.lang .css{
-    position:fixed;
-    top:300px;
-    left:900px;
-    height:80px;
-    width:80px;
-}
-.tools .vs{
+
+.lang .c {
     position: fixed;
-    top:600px;
-    left:750px;
-    height:70px;
-    width:70px;
+    top: 300px;
+    left: 500px;
+    height: 80px;
+    width: 80px;
 }
-.tools .tool{
+
+.lang .html {
     position: fixed;
-    top:350px;
-    left:400px;
+    top: 300px;
+    left: 700px;
+    height: 80px;
+    width: 80px;
 }
-.stars .star{
-    width:500px;
-    animation: star 2s linear infinite;
+
+.lang .css {
+    position: fixed;
+    top: 300px;
+    left: 900px;
+    height: 80px;
+    width: 80px;
 }
-.stars{
-    width:100px;
-    display:flex;
+
+.tools .vs {
+    position: fixed;
+    top: 600px;
+    left: 750px;
+    height: 70px;
+    width: 70px;
+}
+
+.tools .tool {
+    position: fixed;
+    top: 350px;
+    left: 400px;
+}
+
+.stars .star {
+    width: 500px;
+    animation: star 4s linear infinite;
+}
+
+.stars {
+    width: 100px;
+    display: flex;
     align-items: center;
     justify-content: space-around;
-    position:absolute;
-    bottom:0;
+    position: absolute;
+    bottom: 0;
 }
-@keyframes star{
-    0%{
+
+@keyframes star {
+    0% {
         transform: translateY(0);
-        opacity:45%;
+        opacity: 45%;
     }
-    50%{
-        
-        opacity:45%;
+
+    50% {
+
+        opacity: 45%;
     }
-    70%{
-        
-        opacity:45%;
+
+    70% {
+
+        opacity: 45%;
     }
-    100%{
+
+    100% {
         transform: translateY(-80vh);
-        opacity:45%;
+        opacity: 45%;
     }
 }
