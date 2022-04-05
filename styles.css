@@ -30,7 +30,6 @@ body{
     left:1000px;
     top:10px;
     display:inline-block;
-    white-space: nowrap;
 }
 .header .info a{
     color:rgb(39, 154, 177);
