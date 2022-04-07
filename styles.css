@@ -7,13 +7,13 @@ body {
 
 .header .bio {
     position: fixed;
-    top: 200px;
-    left: 500px;
-    font-size: 50px;
-    font-family: roboto;
+    top: 100px;
+    left: 450px;
+    font-size: 70px;
+    font-family: Papyrus;
     color: white;
     animation-name: biotext;
-    animation-duration: 4s;
+    animation-duration: 3s;
     animation-iteration-count: infinite;
 }
 
@@ -23,14 +23,8 @@ body {
     }
 
     to {
-        color: rgb(234, 180, 109);
+        color:#facf5a;
     }
-}
-
-.image img {
-    position: relative;
-    width: 70px;
-    left: 500px;
 }
 
 .header .topnav {
@@ -39,14 +33,18 @@ body {
     top: 40px;
 }
 
-.header .topnav a {
-    color: rgb(39, 154, 177);
+.header .topnav a{
+    color: rgb(109, 180, 211);
     text-decoration: none;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left:20px;
+    padding-right:20px;
+    padding-top:10px;
+    padding-bottom:10px;
     font-weight: bold;
-    border: 2px solid white;
+    border: 2px solid rgb(109, 180, 211);
     font-size: 24px;
+    font-family: Rockwell;
+    border-radius: 10px;
 }
 
 .education .topnav {
@@ -56,96 +54,104 @@ body {
 }
 
 .education .topnav a {
-    color: rgb(39, 154, 177);
+    color:rgb(109, 180, 211);
     text-decoration: none;
     padding-left: 20px;
     padding-right: 20px;
+    padding-top:10px;
+    padding-bottom:10px;
     font-weight: bold;
-    border: 2px solid white;
+    border: 2px solid rgb(109, 180, 211);
     font-size: 24px;
+    border-radius: 10px;
+    font-family: Rockwell;
+    
+}
+.education .topnav :hover{
+    color: white;
+    border-color: white;
 }
 
 .footer .hlogo {
     position: fixed;
-    left: 570px;
-    top: 440px;
+    left: 600px;
+    top: 445px;
     width: 60px;
+}
+.footer :hover {
+    border:2px solid white;
 }
 
 .footer .glogo {
     position: fixed;
-    left: 670px;
+    left: 700px;
     top: 450px;
     width: 80px;
 }
 
 .footer .llogo {
     position: fixed;
-    left: 800px;
+    left: 820px;
     top: 450px;
     width: 50px;
 }
 
 .footer .leetlogo {
     position: fixed;
-    left: 880px;
+    left: 900px;
     top: 440px;
     width: 50px;
 }
 
-.header .fstag {
-    position: fixed;
-    left: 2px;
-    top: 10px;
-    width: 150px;
-
-}
 
 .header .topnav a:hover {
     color: white;
+    border-color: white;
 }
 
 h1 {
     position: fixed;
-    top: 80px;
+    top: 90px;
     left: 900px;
-    font-size: 40px;
-    font-style: cursive;
-    color: rgb(102, 37, 102);
+    font-size: 50px;
+    font-family: Papyrus;
+    color:white;
 }
 
 .intro p {
-    font-size: 32px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: rgb(102, 37, 102);
+    font-size: 38px;
+    font-family: Perpetua;
+    color:#f6c667;
     position: fixed;
-    top: 180px;
+    top: 200px;
     left: 780px;
 }
 
 .pic {
     position: fixed;
     top: 100px;
+    left:40px;
     display: flex;
 }
 
-.edu {
+.education .edu .study{
     position: fixed;
     top: 300px;
-    left: 100px;
-    color: white;
+    left: 80px;
+    color:#b6cdbd; 
     display: flex;
     list-style: none;
-    font-size: 35px;
-    font-style: monaco;
+    font-size: 42px;
+    font-family:Perpetua;
     margin-bottom: 100px;
+    font-weight: bold;
 }
 
 header {
     margin: 100px;
     text-align: center;
     font-size: 80px;
-    font-family: fantasy;
+    font-family: Franklin Gothic Medium;
     color: aliceblue;
     animation-name: headertext;
     animation-duration: 2s;
@@ -159,14 +165,14 @@ header {
     }
 
     to {
-        color: rgb(200, 78, 71);
+        color:#71a0a5;
     }
 }
 
 .gif {
     position: fixed;
     top: 300px;
-    left: 800px;
+    left: 1000px;
     display: flex;
 }
 
@@ -197,7 +203,7 @@ header {
 .tools .vs {
     position: fixed;
     top: 600px;
-    left: 750px;
+    left: 700px;
     height: 70px;
     width: 70px;
 }
@@ -209,17 +215,20 @@ header {
 }
 
 .stars .star {
-    width: 500px;
-    animation: star 4s linear infinite;
+    width: 800px;
+    animation: star 5s linear infinite;
 }
 
 .stars {
-    width: 100px;
+    width: 500px;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    position: absolute;
     bottom: 0;
+    position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
 }
 
 @keyframes star {
@@ -242,4 +251,9 @@ header {
         transform: translateY(-80vh);
         opacity: 45%;
     }
+}
+.tools .tool{
+    position: fixed;
+    top:350px;
+    left:350px;
 }
