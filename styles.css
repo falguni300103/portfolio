@@ -74,9 +74,9 @@ body {
 
 .footer .hlogo {
     position: fixed;
-    left: 600px;
+    left: 500px;
     top: 445px;
-    width: 60px;
+    width: 90px;
 }
 .footer :hover {
     border:2px solid white;
@@ -84,23 +84,23 @@ body {
 
 .footer .glogo {
     position: fixed;
-    left: 700px;
-    top: 450px;
+    left: 650px;
+    top: 440px;
     width: 80px;
 }
 
 .footer .llogo {
     position: fixed;
-    left: 820px;
-    top: 450px;
-    width: 50px;
+    left: 780px;
+    top: 440px;
+    width: 80px;
 }
 
 .footer .leetlogo {
     position: fixed;
     left: 900px;
     top: 440px;
-    width: 50px;
+    width: 80px;
 }
 
 
@@ -139,11 +139,8 @@ h1 {
     top: 300px;
     left: 80px;
     color:#b6cdbd; 
-    display: flex;
-    list-style: none;
     font-size: 42px;
     font-family:Perpetua;
-    margin-bottom: 100px;
     font-weight: bold;
 }
 
@@ -202,7 +199,7 @@ header {
 
 .tools .vs {
     position: fixed;
-    top: 600px;
+    top: 580px;
     left: 700px;
     height: 70px;
     width: 70px;
